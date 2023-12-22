@@ -15,6 +15,7 @@
 		FD7D1E522B2EC6A50047653E /* BankeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D1E512B2EC6A50047653E /* BankeyUITests.swift */; };
 		FD7D1E542B2EC6A50047653E /* BankeyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D1E532B2EC6A50047653E /* BankeyUITestsLaunchTests.swift */; };
 		FD7D1E632B2EDA3C0047653E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D1E622B2EDA3C0047653E /* LoginView.swift */; };
+		FD7D1E8D2B33FE9E0047653E /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D1E8C2B33FE9E0047653E /* OnboardingContainerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FD7D1E512B2EC6A50047653E /* BankeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankeyUITests.swift; sourceTree = "<group>"; };
 		FD7D1E532B2EC6A50047653E /* BankeyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankeyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FD7D1E622B2EDA3C0047653E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FD7D1E8C2B33FE9E0047653E /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		FD7D1E2F2B2EC6A30047653E /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
+				FD7D1E8B2B33FE480047653E /* Onboarding */,
 				FD7D1E602B2ED9CE0047653E /* Files */,
 				FD7D1E612B2ED9E00047653E /* Login */,
 				FD7D1E302B2EC6A30047653E /* AppDelegate.swift */,
@@ -138,6 +141,14 @@
 				FD7D1E622B2EDA3C0047653E /* LoginView.swift */,
 			);
 			name = Login;
+			sourceTree = "<group>";
+		};
+		FD7D1E8B2B33FE480047653E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				FD7D1E8C2B33FE9E0047653E /* OnboardingContainerViewController.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +284,7 @@
 				FD7D1E632B2EDA3C0047653E /* LoginView.swift in Sources */,
 				FD7D1E352B2EC6A30047653E /* LoginViewController.swift in Sources */,
 				FD7D1E312B2EC6A30047653E /* AppDelegate.swift in Sources */,
+				FD7D1E8D2B33FE9E0047653E /* OnboardingContainerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
