@@ -16,6 +16,7 @@
 		FD7D1E542B2EC6A50047653E /* BankeyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D1E532B2EC6A50047653E /* BankeyUITestsLaunchTests.swift */; };
 		FD7D1E632B2EDA3C0047653E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D1E622B2EDA3C0047653E /* LoginView.swift */; };
 		FD7D1E8D2B33FE9E0047653E /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D1E8C2B33FE9E0047653E /* OnboardingContainerViewController.swift */; };
+		FD8437022B355BE500F700F7 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8437012B355BE500F700F7 /* OnboardingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FD7D1E532B2EC6A50047653E /* BankeyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankeyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FD7D1E622B2EDA3C0047653E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		FD7D1E8C2B33FE9E0047653E /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
+		FD8437012B355BE500F700F7 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				FD7D1E8C2B33FE9E0047653E /* OnboardingContainerViewController.swift */,
+				FD8437012B355BE500F700F7 /* OnboardingViewController.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			files = (
 				FD7D1E632B2EDA3C0047653E /* LoginView.swift in Sources */,
 				FD7D1E352B2EC6A30047653E /* LoginViewController.swift in Sources */,
+				FD8437022B355BE500F700F7 /* OnboardingViewController.swift in Sources */,
 				FD7D1E312B2EC6A30047653E /* AppDelegate.swift in Sources */,
 				FD7D1E8D2B33FE9E0047653E /* OnboardingContainerViewController.swift in Sources */,
 			);
